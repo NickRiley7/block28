@@ -1,4 +1,3 @@
-
 import { Routes, Route, Link } from "react-router-dom";
 import './App.css'
 import Red from './components/Red'
@@ -27,6 +26,13 @@ function App() {
           <Route path="/home" element={<Home/>} />
         </Routes>
       </div>
+
+      <div id="footer">
+        <Link to="/blue">blue</Link>
+        <Link to="/red">red</Link>
+        <Link to="/home">home</Link>
+      </div>
+
     
       </div>
     </>
